@@ -47,7 +47,7 @@ function gameEngine(){
         if(highestscore<score||highestscore==undefined)
         {highestscore=score;
         document.getElementsByClassName('highest')[0].innerHTML='Highest score:'+highestscore;}
-        alert("Game over.Press any enter to play again");
+        alert("Game over.Press OK to play again");
         snakeArr=[{x:5,y:5}];
         backgroundmusic.play();
         score=0;
